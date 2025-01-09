@@ -4,7 +4,10 @@ public class Main
 {
   public static void main(String[] args)
   {
-    Scanner sc = new Scanner(System.in);
+    Car stevensSlingshot = new Car();
+    System.out.println(stevensSlingshot.getID());
+
+    /*Scanner sc = new Scanner(System.in);
     String input = "";
     while (!input.equals("q"))
     {
@@ -12,7 +15,8 @@ public class Main
       input = sc.nextLine();
       if (input.equals("default"))
       {
-        // create default car
+        
+        
       }
       else
       {
@@ -20,6 +24,6 @@ public class Main
       }
 
       System.out.println(); // print out the car object
-    }
+    }*/
   }
 }
